@@ -42,7 +42,7 @@ Our goal is to make budgeting engaging, personalized, and insightful, using clou
 - **Frontend:** React.js, TailwindCSS, Shadcn, Chart.js
 - **Backend:** Superbase
 - **Database:** PostgreSQL
-
+- **Deployment** Vercel
 ---
 
 ## ✨ Key Features
@@ -58,8 +58,8 @@ Our goal is to make budgeting engaging, personalized, and insightful, using clou
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [Insert Link]  
-- **Pitch Deck / PPT Link:** [Insert Link]  
+- **Demo Video Link:** https://youtu.be/_D7zDgmdkGY  
+- **Pitch Deck / PPT Link:** https://artha-flow.vercel.app/  
 
 ---
 
