@@ -1,73 +1,138 @@
-# Welcome to your Lovable project
+# 💸 ArthaFlow – Smart Budgeting Dashboard
 
-## Project info
+> An intuitive personal finance dashboard with gamification, visual insights, and AI-based suggestions to reduce expenses and grow savings.
 
-**URL**: https://lovable.dev/projects/0bfae718-f8bc-4de9-b689-192f9a1b83c4
+---
 
-## How can I edit this code?
+## 📌 Problem Statement
 
-There are several ways of editing your application.
+**Empowering users with real-time financial clarity, actionable insights, and motivation to budget smarter.**
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0bfae718-f8bc-4de9-b689-192f9a1b83c4) and start prompting.
+## 🎯 Objective
 
-Changes made via Lovable will be committed automatically to this repo.
+ArthaFlow solves the challenge of personal and small-scale financial management by providing users with a smart budgeting platform that goes beyond spreadsheets. Users can upload bank statements, set budgeting goals, receive behavioral insights, and engage with gamified challenges — all in one seamless interface.
 
-**Use your preferred IDE**
+Our goal is to make budgeting engaging, personalized, and insightful, using cloud syncing, beautiful charts, and AI-driven suggestions.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧠 Team & Approach
 
-Follow these steps:
+### Team Name:  
+`BugLords`
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Team Members:  
+- Shubhodeep Mondal ( [GitHub](https://github.com/Spidy394) | [LinkedIn](https://www.linkedin.com/in/shubho-deep) | `Frontend Developer` )  
+- Aranya Rayed ( [GitHub](https://github.com/Abotishere) | [LinkedIn](https://www.linkedin.com/in/aranya-rayed-990671315/) | `Backend Developer` )  
+- Rohan Kumar ( [GitHub](https://github.com/rohan911438) | [LinkedIn](https://www.linkedin.com/in/rohan-kumar-1a60b7314/) | `UX/UI Designer` )
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Our Approach:
+- Tackled the need for smart, goal-oriented budgeting for individuals, families, freelancers, and small businesses
+- Focused on creating a gamified and motivating interface
+- Added AI to help users cut costs and optimize savings
+- Used flexible architecture to allow for multi-device access and future scalability
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🛠️ Tech Stack
+
+### Core Technologies:
+- **Frontend:** React.js, TailwindCSS, Shadcn, Chart.js
+- **Backend:** Superbase
+- **Database:** PostgreSQL
+
+---
+
+## ✨ Key Features
+
+- ✅ CSV/bank statement uploads with smart parsing  
+- ✅ Visualizations: Spending trends, category breakdowns, net-worth timelines  
+- ✅ Gamified experience: Points, badges, budgeting challenges  
+- ✅ Cloud syncing for access across devices  
+- ✅ AI-based suggestions to reduce spending and boost savings  
+- ✅ Real-time notifications and Google Calendar reminders  
+
+---
+
+## 📽️ Demo & Deliverables
+
+- **Demo Video Link:** [Insert Link]  
+- **Pitch Deck / PPT Link:** [Insert Link]  
+
+---
+
+## 🧪 How to Run the Project
+
+### Requirements:
+- Node.js v14+  
+- PostgreSQL setup  
+- API keys (for calendar/notification features)
+- OpenAI API key (for AI suggestions)
+
+### Local Setup:
+```bash
+git clone https://github.com/Spidy394/ArthaFlow.git
+cd ArthaFlow
+npm install
+
+# Setup env variables
+cp .env.example .env
+# Fill .env with necessary credentials
+
+# Start development
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open in browser: [http://localhost:8000](http://localhost:8000)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔍 Conceptual Data Model
 
-## What technologies are used for this project?
+- `Users`: id, email, password, settings  
+- `Transactions`: id, user_id, category, amount, date, type  
+- `Budgets`: id, user_id, category, target, current, start_date, end_date  
+- `Challenges`: id, user_id, name, status, points  
+- `Notifications`: id, user_id, message, type, date  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🧬 Future Scope
 
-## How can I deploy this project?
+- 🔗 Bank API integration for auto-import  
+- 📱 Native mobile apps (Android/iOS)  
+- 💱 Multi-currency support  
+- 📊 Predictive analytics and investment suggestions  
 
-Simply open [Lovable](https://lovable.dev/projects/0bfae718-f8bc-4de9-b689-192f9a1b83c4) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🔒 Security Highlights
 
-Yes, you can!
+- Passwords encrypted with bcrypt  
+- HTTPS for all client-server communication  
+- JWT-based session handling  
+- Secure cloud storage and encryption at rest  
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📎 Resources / Credits
+
+- React, Chart.js, TailwindCSS  
+- PostgreSQL, Node.js  
+- Open-source CSV parsers and budgeting tools as references
+
+---
+
+## 🏁 Final Words
+
+This project is our step toward simplifying financial wellness. We believe budgeting should be empowering — not boring — and ArthaFlow brings life to your finances with visuals, gamification, and smart suggestions.
+
+---
+
+<p align="center">
+  Built with 💙 by BugLords ©️ 2025
+</p>
+
