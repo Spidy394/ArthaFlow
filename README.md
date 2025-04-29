@@ -59,7 +59,7 @@ Our goal is to make budgeting engaging, personalized, and insightful, using clou
 ## 📽️ Demo & Deliverables
 
 - **Demo Video Link:** https://youtu.be/_D7zDgmdkGY  
-- **Pitch Deck / PPT Link:** https://artha-flow.vercel.app/  
+- **Live Link:** https://artha-flow.vercel.app/  
 
 ---
 
